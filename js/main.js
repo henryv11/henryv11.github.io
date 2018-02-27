@@ -23,8 +23,6 @@ function main() {
             break;
         case "3": printResult(SHA256(message));
             break;
-        case "4": return;
-            break;
     }
     return;
 }
@@ -124,7 +122,7 @@ function generateKey(message){
 function printResult(message) {
     var output = document.getElementById("output");
     output.innerHTML = message;
-    return;
+	return;
 }
 
 /**
